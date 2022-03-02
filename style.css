@@ -1,1 +1,28 @@
 
+
+* {
+
+}
+
+body {
+  background-color: darkgrey;
+}
+
+#map {
+  height: 300px;
+}
+
+.container{
+  height: auto;
+  width: 100%;
+  background-color: inherit;
+}
+
+.main-nav{
+
+}
+
+li {
+  list-style-type: square;
+  font-family: verdana;
+}
