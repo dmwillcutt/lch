@@ -22,7 +22,7 @@ body {
 
 }
 
-.li {
+li {
   list-style-type: square;
   font-family: verdana;
   font-color: white;
