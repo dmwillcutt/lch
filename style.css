@@ -5,6 +5,7 @@
 }
 
 body {
+  margin: 0;
   background-color: darkgrey;
 }
 
@@ -15,15 +16,16 @@ body {
 .container{
   height: auto;
   width: 100%;
-  background-color: blue;
+  background-color: inherit;
 }
 
 .main-nav{
 
 }
 
-li {
-  list-style-type: square;
-  font-family: verdana;
-  font-color: white;
+ul li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
 }

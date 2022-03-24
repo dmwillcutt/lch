@@ -2,8 +2,13 @@
 <html lang="en">
 
 <head>
-
+  <title>Lansing Culinary Heritage Trail </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <link rel="stylesheet" href="lch/style.css"/>
+
+<!--jQuery UI Touch js, required for touchscreen use-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 
 <!-- Leaflet stylesheet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -13,6 +18,7 @@
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
+
   <script src="lch/scripts.js"> </script>
 
 </head>
@@ -24,10 +30,49 @@
 
     <main>
       <h1> </h1>
+<!--Map-->
+      <section>
        <div id="map"></div>
+       <script>
+       var map1 = L.map('map').setView([42.73465, -84.54209, 14);
+       L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjazMwanlyNTEwOWc0M2tvNGMxcm90aThvIn0.SzFNAdPEsMo8yXKj7nDuvA, {
+   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+   maxZoom: 18,
+   id: 'mapbox/dark-v10',
+   tileSize: 512,
+   zoomOffset: -1,
+   accessToken: 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjazMwanlyNTEwOWc0M2tvNGMxcm90aThvIn0.SzFNAdPEsMo8yXKj7nDuvA'
+}).addTo(map1);
 
-    </main>
 
+
+<!--Claras Depot-->
+  var marker = L.marker([42.73465, -84.54209]).addTo(map);
+
+<!--Bijou-->
+
+<!--Nuthouse-->
+
+<!--Dines-->
+
+<!--Knight Cap-->
+
+<!--Stobers-->
+
+<!--Jims Tiffany-->
+
+<!--Kellys Downtown-->
+
+<!--Foo Ying Cafe-->
+
+<!--Moriartys-->
+
+<!--Home Dairy Co-->
+
+
+</script>
+
+<div id="ul">
     <ul>
       <li>Bijou Restaurant</li>
       <li>Clara's Lansing Station</li>
@@ -41,6 +86,10 @@
       <li>Moriarty's Pub</li>
       <li>Nuthouse Sports Grill</li>
       <li>Stober's Bar</li>
+
+
+    </main>
+
     <footer> </footer>
 
 
