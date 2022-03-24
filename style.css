@@ -24,5 +24,6 @@ body {
 
 li {
   list-style-type: square;
-  font-family: verdana;
+  font-family: times new roman;
+  font-color: white;
 }
