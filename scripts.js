@@ -14,7 +14,7 @@ L.marker([42.73465, -84.54209]).addTo(map)
     .bindPopup('Clara <br> Easily customizable.')
     .openPopup();
 
-<!--Claras Depot-->
+ <!--Claras Depot-->
   var marker = L.marker([42.73465, -84.54209]).addTo(map);
 
 <!--Bijou-->
