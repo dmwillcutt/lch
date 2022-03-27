@@ -4,19 +4,17 @@
 <head>
   <title>Lansing Culinary Heritage Trail </title>
   <meta charset="utf-8"/>
-  <script src="lch/scripts.js"> </script>
-
   <link rel="stylesheet" href="style.css"/>
+  <script src="scripts.js"> </script>
 
 <!-- Leaflet stylesheet -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
    crossorigin=""/>
 
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
-
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+     crossorigin=""></script>
 
 </head>
 
@@ -30,17 +28,17 @@
       <ul id="primary-navigation" class="primary-navigation flex">
         <li class="active">
           <a href="index.html">
-              <span aria-hidden="true">Home</span> Home
+              <span aria-hidden="true">Home</span>
           </a>
 
         <li>
           <a href="about.html">
-              <span aria-hidden="true">About</span> About
+              <span aria-hidden="true">About</span>
           </a>
 
         <li>
           <a href="directions.html">
-            <span aria-hidden="true">Directions</span> Directions
+            <span aria-hidden="true">Directions</span>
           </a>
         </ul>
       </nav>
@@ -50,8 +48,10 @@
       <h1>Lansing Culinary Heritage Trail Map</h1>
 
 <!--Map-->
-      <section>
-       <div id="map"></div>
+    <section>
+
+      <div id="map"> </div>
+
        <script>
        var map1 = L.map('map').setView([42.73465, -84.54209, 14);
        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjazMwanlyNTEwOWc0M2tvNGMxcm90aThvIn0.SzFNAdPEsMo8yXKj7nDuvA, {
@@ -65,31 +65,45 @@
 
 
 <!--Claras Depot-->
-
   var marker = L.marker([42.73465, -84.54209]).addTo(map);
 
 <!--Bijou-->
+  var marker = L.marker([42.73403, -84.55119]).addTo(map);
 
 <!--Nuthouse-->
+  var marker = L.marker([42.73343, -84.54708]).addTo(map);
 
 <!--Dines-->
+  var marker = L.marker([42.73371, - 84.54829]).addTo(map);
 
 <!--Knight Cap-->
+  var marker = L.marker([42.73358, -84.54792]).addTo(map);
 
 <!--Stobers-->
+  var marker = L.marker([42.73342, -84.53967]).addTo(map);
 
 <!--Jims Tiffany-->
+  var marker = L.marker([42.73370, -84.55183]).addTo(map);
 
 <!--Kellys Downtown-->
+  var marker = L.marker([42.73192, -84.55224]).addTo(map);
 
-<!--Foo Ying Cafe-->
+<!--Foo Ying Cafe 1-->
+  var marker = L.marker([42.73192, -84.55224]).addTo(map);
+
+<!--Foo Ying Cafe 2-->
+  var marker = L.marker([42.73348, -84.54044]).addTo(map);
 
 <!--Moriartys-->
+  var marker = L.marker([42.73348, -84.54044]).addTo(map);
 
 <!--Home Dairy Co-->
+  var marker = L.marker([42.73063740942302, -84.55187538677465]).addTo(map);
 
 
   </script>
+
+    </section>
 
 <div id="ul">
     <ul>
