@@ -1,4 +1,3 @@
-
 var map = L.map('map').setView([42.73465, -84.54209], 16);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDE5bmZ4eWQwMHFwM2pvMzZ0M2F1dmN4In0.vISO5O9caY4NVJt3Vbi8FQ}', {
