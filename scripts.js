@@ -10,7 +10,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(map);
 
 L.marker([42.73465, -84.54209]).addTo(map)
-    .bindPopup('Clara <br> Easily customizable.')
+    .bindPopup('Clara's <br> Easily customizable.')
     .openPopup();
 
  <!--Claras Depot-->
