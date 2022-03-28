@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: darkgrey;
+  background-color: ivory;
 }
 
 #map {
@@ -33,10 +33,11 @@ body {
   margin: 0;
 }
 
-.main-nav{
-  list-style: center;
-  font-color: black;
-
+#main-nav{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: 700;
 }
 
 #ul {
