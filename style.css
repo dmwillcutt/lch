@@ -14,6 +14,12 @@ body {
   background-color: inherit;
 }
 
+#map {
+  margin: 0;
+  width: 100%;
+  background-color: inherit;
+}
+
 .flex {
   display: flex;
   gap: var( 3 em, 1 rem);
