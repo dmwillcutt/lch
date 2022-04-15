@@ -7,6 +7,11 @@ body {
   background-color: lightgrey;
 }
 
+#map {
+  width: 100%;
+  position: center;
+}
+
 
 .container{
   height: auto;
@@ -29,12 +34,6 @@ body {
   padding: 0;
   margin: 0;
   font-color: blue;
-}
-
-
-#map {
-  width: 100%;
-  position: absolute;
 }
 
 #ul {
