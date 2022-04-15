@@ -7,11 +7,6 @@ body {
   background-color: lightgrey;
 }
 
-#map {
-  width: 100%;
-  position: center;
-}
-
 
 .container{
   height: auto;
