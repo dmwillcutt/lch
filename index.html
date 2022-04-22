@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Lansing Culinary Heritage Trail</title>
 
@@ -13,24 +13,30 @@
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
   crossorigin=""></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css' rel='stylesheet' />
   <link rel="stylesheet" href="style.css">
-  <script src="scripts.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function () {
+      /*mapboxgl.accessToken = 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ';;
+      var map = L.map('map', {
+        center: [51.505, -0.09],
+        zoom: 13
+    });*/
+    var map = L.map('map').setView([32.8212207945, 34.9868925889], 14);
+    var mytile =L.tileLayer('tiles/{z}/{x}/{y}.png', {
+      maxZoom: 17,
+      minZoom: 12,
+      tms: true
+    }).addTo(map);
+  });
+  </script>
 </head>
 
 <body>
   <h3>Lansing Culinary Heritage Trail</h3>
-<section>
   <div id='map' style='width: 1110px; height: 600px;'></div>
 
-  <script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ';
-  var map = L.map('map', {
-    container: 'map',
-    center: [51.505, -0.09],
-    zoom: 13
-});
-
-  </script>
-</section>
+<script src="scripts.js"></script>
 </body>
