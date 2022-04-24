@@ -8,3 +8,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ'
 }).addTo(map);
+
+L.marker([42.73465, -84.54209]).addTo(map)
+    .bindPopup('Claras Lansing Station')
+    .openPopup();
