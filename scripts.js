@@ -1,6 +1,4 @@
 var map = L.map('map').setView([42.733779348826594, -84.54847476501921], 15);
-
-    <script>
  $(document).ready(function () {
       /*mapboxgl.accessToken = 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ';
       var map = L.map('map', {
@@ -18,4 +16,3 @@ var map = L.map('map').setView([42.733779348826594, -84.54847476501921], 15);
     token: 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ'
   });
 });
-  </script>
