@@ -38,9 +38,8 @@ body {
 }
 
 #h2 {
-  font-style: helvetica;
-  font-color: white;
   text-shadow: 2px 2px #000000;
+}
 
 #ul {
   background: #ffe5e5;
