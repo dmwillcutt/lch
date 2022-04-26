@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: #800000;
+  background-color: #400000;
 }
 
 
@@ -37,7 +37,7 @@ body {
   font-color: blue;
 }
 
-#h2 {
+h2 {
   text-shadow: 2px 2px #000000;
 }
 
