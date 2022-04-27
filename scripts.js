@@ -16,3 +16,9 @@ L.tileLayer('https://api.mapbox.com/styles/v1/dmwillcutt/cl0a16gb3000h14pc85bdfp
 L.marker([42.73465, -84.54209]).addTo(map)
     .bindPopup('Claras Lansing Station')
     .openPopup();
+L.marker([42.73403, -84.55119]).addTo(map)
+    .bindPopup('Bijou Restaurant')
+    .openPopup();
+L.marker([42.73343, -84.54708]).addTo(map)
+    .bindPopup('The Nuthouse')
+    .openPopup();
