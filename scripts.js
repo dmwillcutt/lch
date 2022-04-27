@@ -22,3 +22,34 @@ L.marker([42.73403, -84.55119]).addTo(map)
 L.marker([42.73343, -84.54708]).addTo(map)
     .bindPopup('The Nuthouse')
     .openPopup();
+L.marker([42.73371, -84.54829]).addTo(map)
+    .bindPopup('Dines Restaurant')
+    .openPopup();
+L.marker([42.73358, -84.54792]).addTo(map)
+    .bindPopup('The Knight Cap')
+    .openPopup();
+L.marker([42.73342, -84.53967]).addTo(map)
+    .bindPopup('Stobers Bar')
+    .openPopup();
+L.marker([42.73370, -84.55183]).addTo(map)
+    .bindPopup('Jims Tiffany')
+    .openPopup();
+L.marker([42.73192, -84.55224]).addTo(map)
+    .bindPopup('Kellys Downtown')
+    .openPopup();
+L.marker([42.73192, -84.55224]).addTo(map)
+    .bindPopup('Foo Ying Cafe 1')
+    .openPopup();
+L.marker([42.73348, -84.54044]).addTo(map)
+    .bindPopup('Foo Ying Cafe 2')
+    .openPopup();
+L.marker([42.73348, -84.54044]).addTo(map)
+    .bindPopup('Moriartys Pub')
+    .openPopup();
+L.marker([42.73063, -84.55187]).addTo(map)
+    .bindPopup('Home Dairy Company')
+    .openPopup();
+
+
+
+
