@@ -14,7 +14,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/dmwillcutt/cl0a16gb3000h14pc85bdfp
 }).addTo(map);
 
 var waitressIcon = L.icon({
-    iconURL: 'url here',
+    iconURL: 'waitressIcon.png',
     iconSize: [38, 95],
     iconAnchor: [22, 94],
     popupAnchor: [-3, -76]
