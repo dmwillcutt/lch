@@ -55,3 +55,9 @@ L.marker([42.73733, -84.55359]).addTo(map)
 L.marker([42.73008, -84.55203]).addTo(map)
     .bindPopup('LAiglon Restaurant')
     .openPopup();
+L.marker([42.733602, -84.553959]).addTo(map)
+    .bindPopup('Michigan Capitol Building')
+    .openPopup();
+L.marker([42.73691, -84.55266]).addTo(map)
+    .bindPopup('Palador Cafe')
+    .openPopup();
