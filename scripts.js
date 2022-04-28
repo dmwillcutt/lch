@@ -13,7 +13,14 @@ L.tileLayer('https://api.mapbox.com/styles/v1/dmwillcutt/cl0a16gb3000h14pc85bdfp
     accessToken: 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ'
 }).addTo(map);
 
-L.marker([42.733722, -84.543056]).addTo(map)
+var waitressIcon = L.icon({
+    iconURL: 'url here',
+    iconSize: [38, 95],
+    iconAnchor: [22, 94],
+    popupAnchor: [-3, -76]
+});
+
+L.marker([42.733722, -84.543056], {icon: waitressIcon}).addTo(map)
     .bindPopup('Claras Lansing Station')
     .openPopup();
 L.marker([42.73403, -84.55119]).addTo(map)
