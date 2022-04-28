@@ -13,7 +13,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/dmwillcutt/cl0a16gb3000h14pc85bdfp
     accessToken: 'pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ'
 }).addTo(map);
 
-L.marker([42.73465, -84.54209]).addTo(map)
+L.marker([42.733722, -84.543056]).addTo(map)
     .bindPopup('Claras Lansing Station')
     .openPopup();
 L.marker([42.73403, -84.55119]).addTo(map)
