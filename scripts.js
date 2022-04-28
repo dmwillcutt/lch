@@ -20,7 +20,7 @@ L.marker([42.73403, -84.55119]).addTo(map)
     .bindPopup('Bijou Restaurant')
     .openPopup();
 L.marker([42.73343, -84.54708]).addTo(map)
-    .bindPopup('The Nuthouse')
+    .bindPopup('The Nuthouse Sports Grill')
     .openPopup();
 L.marker([42.73371, -84.54829]).addTo(map)
     .bindPopup('Dines Restaurant')
@@ -49,7 +49,9 @@ L.marker([42.73348, -84.54044]).addTo(map)
 L.marker([42.73063, -84.55187]).addTo(map)
     .bindPopup('Home Dairy Company')
     .openPopup();
-
-
-
-
+L.marker([42.73733, -84.55359]).addTo(map)
+    .bindPopup('Gregorys Ice and Smoke')
+    .openPopup();
+L.marker([42.73008, -84.55203]).addTo(map)
+    .bindPopup('LAiglon Restaurant')
+    .openPopup();
