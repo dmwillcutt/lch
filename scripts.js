@@ -14,7 +14,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/dmwillcutt/cl0a16gb3000h14pc85bdfp
 }).addTo(map);
 
 L.marker([42.733722, -84.543056]).addTo(map)
-    .bindPopup('Clara &#8217; s Lansing Station')
+    .bindPopup('Clara&#8217;s Lansing Station')
     .openPopup();
 L.marker([42.73403, -84.55119]).addTo(map)
     .bindPopup('Bijou Restaurant')
@@ -23,7 +23,7 @@ L.marker([42.73343, -84.54708]).addTo(map)
     .bindPopup('The Nuthouse Sports Grill')
     .openPopup();
 L.marker([42.73371, -84.54829]).addTo(map)
-    .bindPopup('Dines Restaurant')
+    .bindPopup('Dine&#8217;s Restaurant')
     .openPopup();
 L.marker([42.73358, -84.54792]).addTo(map)
     .bindPopup('The Knight Cap')
@@ -32,10 +32,10 @@ L.marker([42.73342, -84.53967]).addTo(map)
     .bindPopup('Stobers Bar')
     .openPopup();
 L.marker([42.73370, -84.55183]).addTo(map)
-    .bindPopup('Jims Tiffany')
+    .bindPopup('Jim&#8217;s Tiffany')
     .openPopup();
 L.marker([42.73192, -84.55224]).addTo(map)
-    .bindPopup('Kellys Downtown')
+    .bindPopup('Kelly&#8217;s Downtown')
     .openPopup();
 L.marker([42.73192, -84.55224]).addTo(map)
     .bindPopup('Foo Ying Cafe 1')
@@ -44,16 +44,16 @@ L.marker([42.73348, -84.54044]).addTo(map)
     .bindPopup('Foo Ying Cafe 2')
     .openPopup();
 L.marker([42.73348, -84.54044]).addTo(map)
-    .bindPopup('Moriartys Pub')
+    .bindPopup('Moriarty&#8217;s Pub')
     .openPopup();
 L.marker([42.73063, -84.55187]).addTo(map)
     .bindPopup('Home Dairy Company')
     .openPopup();
 L.marker([42.73733, -84.55359]).addTo(map)
-    .bindPopup('Gregorys Ice and Smoke')
+    .bindPopup('Gregory&#8217;s Ice and Smoke')
     .openPopup();
 L.marker([42.73008, -84.55203]).addTo(map)
-    .bindPopup('LAiglon Restaurant')
+    .bindPopup('L&#8217;Aiglon Restaurant')
     .openPopup();
 L.marker([42.733602, -84.553959]).addTo(map)
     .bindPopup('Michigan Capitol Building')
