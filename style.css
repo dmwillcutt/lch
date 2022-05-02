@@ -1,6 +1,10 @@
 * {
 
 }
+header, .header {
+  margin: 0;
+  background-color: #EFF3F5;
+}
 
 body, .body {
   margin: 0;
