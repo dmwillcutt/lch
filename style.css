@@ -2,7 +2,7 @@
 
 }
 
-body {
+body, .body {
   margin: 0;
   background-color: #400000;
   background-image: url("dmwillcutt/lch/lchLogo.png");
