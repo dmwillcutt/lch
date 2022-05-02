@@ -4,9 +4,9 @@
 
 body, .body {
   margin: 0;
-  background-color: #D7DBDD;
+  background-color: #EFF3F5;
   background-image: url("lchLogo.png");
-  background-repeat: repeat-x;
+  background-repeat: repeat-x repeat-y;
   background-size: 100px 100px;
 }
 
