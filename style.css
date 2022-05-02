@@ -7,6 +7,7 @@ body, .body {
   background-color: #D7DBDD;
   background-image: url("lchLogo.png");
   background-repeat: repeat-x;
+  background-size: 100px 100px;
 }
 
 
