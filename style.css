@@ -24,12 +24,15 @@ p, .p {
   background-color: inherit;
 }
 
+#logo {
+  padding: 25px 50px 25px;
+}
+
 #map {
   margin: 0;
   width: 100%;
   background-color: inherit;
 }
-
 
 
 .flex {
