@@ -44,7 +44,7 @@ L.marker([42.73348, -84.54044]).addTo(map)
     .bindPopup('<b>Foo Ying Cafe 2</b>')
     .openPopup();
 L.marker([42.73348, -84.54044]).addTo(map)
-    .bindPopup('<b>Moriarty&#8217;s Pub</b>')
+    .bindPopup('<b>Moriarty&#8217;s Pub</b> has been in Lansing for almost fifty years and is still operating. Michael "Mort" Moriarty - original owner and namesake - opened the pub in 1970(ca.) while working in a nearby automobile factory. In 2014 Moriarty sold the pub to Carolyn Baron and Joy Alswede, who still own the bar today. Moriarty&#8217;s is known for live music, including Jazz Tuesdays.')
     .openPopup();
 L.marker([42.73063, -84.55187]).addTo(map)
     .bindPopup('<b>Home Dairy Company</b>')
