@@ -17,10 +17,10 @@ L.marker([42.733722, -84.543056]).addTo(map)
     .bindPopup('Clara&#8217;s Lansing Station')
     .openPopup();
 L.marker([42.73403, -84.55119]).addTo(map)
-    .bindPopup('Bijou Restaurant')
+    .bindPopup('<b>Bijou Restaurant<b> was a fine dining icon in downtown Lansing.')
     .openPopup();
 L.marker([42.73343, -84.54708]).addTo(map)
-    .bindPopup('The Nuthouse Sports Grill')
+    .bindPopup('<b>The Nuthouse Sports Grill<b>')
     .openPopup();
 L.marker([42.73371, -84.54829]).addTo(map)
     .bindPopup('Dine&#8217;s Restaurant')
@@ -29,7 +29,7 @@ L.marker([42.73358, -84.54792]).addTo(map)
     .bindPopup('The Knight Cap')
     .openPopup();
 L.marker([42.73342, -84.53967]).addTo(map)
-    .bindPopup('Stobers Bar')
+    .bindPopup('Stober&#8217;s Bar')
     .openPopup();
 L.marker([42.73370, -84.55183]).addTo(map)
     .bindPopup('Jim&#8217;s Tiffany')
