@@ -16,6 +16,11 @@ body, .body {
 
 p, .p {
   font-color: black;
+  font-weight: bold;
+  background-color: #EFF3F5;
+  padding: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .container{
@@ -25,7 +30,7 @@ p, .p {
 }
 
 #logo {
-  padding: 25px 50px 25px;
+  padding: 25px 25px 25px;
 }
 
 #map {
