@@ -16,11 +16,11 @@ body, .body {
 
 p, .p {
   font-color: black;
-  font-weight: bold;
   background-color: #EFF3F5;
   padding: 20px;
   margin-left: 25px;
   margin-right: 25px;
+  margin-bottom: 30px;
 }
 
 .container{
@@ -36,6 +36,7 @@ p, .p {
 #map {
   margin: 0;
   width: 100%;
+  height: 350px;
   background-color: inherit;
 }
 
