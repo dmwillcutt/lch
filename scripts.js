@@ -1,4 +1,4 @@
-var map = L.map('map').setView([42.73342,-84.54792], 16);
+var map = L.map('map').setView([42.73063, -84.55187], 16);
 
 https://api.mapbox.com/styles/v1/dmwillcutt/cl0a16gb3000h14pc85bdfpio.html?title=copy&access_token=pk.eyJ1IjoiZG13aWxsY3V0dCIsImEiOiJjbDFoMGYzbmswMmJhM2xwYmQ3ZDFha2NxIn0.5lZY2hzSlHS69b2dXGVbrQ&zoomwheel=true&fresh=true#14.85/42.74133/-84.5437
 
