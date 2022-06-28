@@ -32,7 +32,7 @@ L.marker([42.73342, -84.53967]).addTo(map)
     .bindPopup('<b>Stober&#8217;s Bar</b> is known for its ornate stained glass and wood carved bar, imported from the Caribbean. The stained glass picture is of a wizard. At one point, the door warned customers that “There be dragons” beyond the door. There was also a time in which the building&#8217;s eastern-facing facade was painted with a promise that Stober&#8217;s was the “Coolest Bar in Lansing.”')
     .openPopup();
 L.marker([42.73370, -84.55183]).addTo(map)
-    .bindPopup('<b>Jim&#8217;s Tiffany</b>')
+    .bindPopup('<b>Jim&#8217;s Tiffany</b> was known for its decorations of ornate Tiffany lamps made of colorful stained glass but it originally opened as a simple bar - Jim&#8217;s Cafe. When Greek immigrant and original owner Jim Vlahakis opened the restaurant, Greek specialties were not yet the norm in Lansing. It would actually be Vlahakis&#8217;s son who introduced traditional Greek items like gyros, <i>spanikopita</i>, and more.')
     .openPopup();
 L.marker([42.73192, -84.55224]).addTo(map)
     .bindPopup('<b>Kelly&#8217;s Downtown</b>')
@@ -47,7 +47,7 @@ L.marker([42.73348, -84.54044]).addTo(map)
     .bindPopup('<b>Moriarty&#8217;s Pub</b> has been in Lansing for almost fifty years and is still operating. Michael "Mort" Moriarty - original owner and namesake - opened the pub in 1970(ca.) while working in a nearby automobile factory. In 2014 Moriarty sold the pub to Carolyn Baron and Joy Alswede, who still own the bar today. Moriarty&#8217;s is known for live music, including Jazz Tuesdays.')
     .openPopup();
 L.marker([42.73063, -84.55187]).addTo(map)
-    .bindPopup('<b>Home Dairy Company</b>')
+    .bindPopup('<b>Home Dairy Company</b> reminds us of the forgotten history of dairy bars. Home Dairy Company was a cafeteria style restaurant that served up more than just dairy products. It was a popular lunch spot for local workers and shoppers alike to find something to enjoy.')
     .openPopup();
 L.marker([42.73733, -84.55359]).addTo(map)
     .bindPopup('<b>Gregory&#8217;s Ice and Smoke</b> was owned and operated by Gregory Eaton, who now owns Greogry&#8217;s Soul Food at the corner of Grand River Avenue and Martin Luther King, Jr. Boulevard. Eaton was the first African American business owner to receive a liquor license in Lansing. Liquor licenses are controlled by the state liquor commission.')
