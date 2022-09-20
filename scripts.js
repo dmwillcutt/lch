@@ -35,7 +35,7 @@ L.marker([42.73370, -84.55183]).addTo(map)
     .bindPopup('<b>Jim&#8217;s Tiffany</b> was known for its decorations of ornate Tiffany lamps made of colorful stained glass but it originally opened as a simple bar - Jim&#8217;s Cafe. When Greek immigrant and original owner Jim Vlahakis opened the restaurant, Greek specialties were not yet the norm in Lansing. It would actually be Vlahakis&#8217;s son who introduced traditional Greek items like gyros, <i>spanikopita</i>, and more.')
     .openPopup();
 L.marker([42.73192, -84.55224]).addTo(map)
-    .bindPopup('<b>Kelly&#8217;s Downtown</b>')
+    .bindPopup('<b>Kelly&#8217;s Downtown</b> is an Irish pub that opened in 1986 at 203 South Washington Avenue. The space features an original tin ceiling -- the same tin ceiling that was there when Jim&#8217;s first opened in the space in 1914. Kelly&#8217;s is known for their Irish and domestic drafts, circular bar, and classic pub fare that includes baked potatoes.)
     .openPopup();
 L.marker([42.73192, -84.55224]).addTo(map)
     .bindPopup('<b>Foo Ying Cafe 1</b>')
